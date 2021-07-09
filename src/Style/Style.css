@@ -1,0 +1,270 @@
+
+p,h1,h2,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #2f2fdb;
+}
+
+@font-face {
+    font-family: Sarabun-Regular;
+    src: url("Fonts/Sarabun-Regular.ttf");
+}
+
+body{
+    background-color: #e0e0e0;
+    font-family: Sarabun-Regular;
+}
+
+.Loader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project{
+    width: 25rem;
+    height: 35rem;
+    background-color: #f5f5f5;
+    position: absolute;
+    border-radius: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.06);
+}
+
+.Buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Buttons button{
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 100%;
+    background-color: #e0e0e0;
+    margin: 0 .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.Content{
+    width: 90%;
+    height: auto;
+}
+
+.Information{
+    width: 100%;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.PersonImage{
+    width: 100%;
+
+}
+
+.PersonImage img{
+    width: 70px;
+    height: 70px;
+    background-size: 100px;
+    background-position: center center;
+    border: 3px solid #aed581;
+    border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+
+}
+
+
+.Name{
+    width: 100%;
+    height: 3rem;
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Name h2{
+    color: black;
+    opacity: .7;
+}
+
+.Name p{
+    color: black;
+    opacity: .3;
+}
+
+.SocialButton{
+    width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid  #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SocialButtonLeft{
+    width: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SocialButtonLeft button{
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .25rem;
+    cursor: pointer;
+}
+
+.SocialButtonRight{
+    width: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.SocialButtonRight button{
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .25rem;
+    cursor: pointer;
+}
+
+
+
+
+.Data{
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+.Data :nth-child(1){
+    font-size: 18px;
+    color: black;
+    opacity: .3;
+}
+
+.Data :nth-child(2){
+    font-size: 25px;
+    color: black;
+    opacity: .7;
+}
+
+.ParentLevel{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+
+.Level{
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+.Level :nth-child(1){
+    width: 0;
+    height: 1rem;
+    margin: auto;
+    position: absolute;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.Level :nth-child(2){
+    width: 100%;
+    height: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    margin: auto
+}
+
+.ExploreTeam{
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ExploreImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExploreImage :nth-child(1){
+    width : 3rem ;
+    height : 3rem ;
+    border-radius: 1rem 1.5rem 0rem 1.5rem;
+    background-Color : red;
+    border: 2px solid white;
+
+}
+
+.ExploreImage :nth-child(2){
+    width : 3rem ;
+    height : 3rem ;
+    border-radius: 1rem 1.5rem 0rem 1.5rem;
+    background-Color : green;
+    border: 2px solid white;
+    transform: translateX(-40%);
+}
+
+.ExploreImage :nth-child(3){
+    width : 3rem ;
+    height : 3rem ;
+    border-radius: 1rem 1.5rem 0rem 1.5rem;
+    background-Color : blue;
+    border: 2px solid white;
+    transform: translateX(-80%);
+}
+
+
+
+
+
+
+
+
+
+
+
