@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../Details/Header";
-import Social from "../Details/Social";
-import Footer from "../Details/Footer";
-import UserImage from "../Details/UserImage";
+import Header from "../Details/2-Header";
+import Social from "../Details/3-SociaButton";
+import Footer from "../Details/4-Footer";
+import UserImage from "../Details/1-UserImage";
 
-export default function ShowData(props){
+export default function ShowData3(props){
 
     const {id,name,username,website,phone,address:{city}} = props.Data
 

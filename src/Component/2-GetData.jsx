@@ -1,11 +1,11 @@
 import React , {Component} from "react";
-import ShowData from "./ShowData";
+import ShowData3 from "./3-ShowData";
 import GetDataApi from "../Request/GetDataApi";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner"
 import {FcNext , FcPrevious} from 'react-icons/fc'
 
-class GetData extends Component{
+class GetData2 extends Component{
     constructor(props) {
         super(props);
 
@@ -58,11 +58,11 @@ class GetData extends Component{
                             <button onClick={this.props.Current > 1 ? this.props.PrevCurrent : this.props.RestartPrevCurrent }><FcPrevious size={'35px'}/></button>
                             <button onClick={this.props.Current < 10 ? this.props.NextCurrent : this.props.RestartNextCurrent }><FcNext size={'35px'}/></button>
                         </div>
-                        <ShowData Data={this.state.UserInfo} Current={this.props.Current}/>
+                        <ShowData3 Data={this.state.UserInfo} Current={this.props.Current}/>
                     </div>
                     :
                     <div className={'Loader'}>
-                        <Loader type="Puff" color="#aed581"/>
+                        <Loader type="Grid" color="#aed581"/>
                     </div>
                 }
             </>
@@ -70,4 +70,4 @@ class GetData extends Component{
     }
 }
 
-export default GetData
+export default GetData2

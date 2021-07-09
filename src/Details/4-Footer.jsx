@@ -1,6 +1,6 @@
 import React ,{Component} from "react";
-import Level from "./Level";
-import ExploreTeam from "./ExploreTeam";
+import Level from "./5-Level";
+import ExploreTeam from "./6-ExploreTeam";
 
 
 
@@ -39,6 +39,7 @@ export default class Footer extends Component{
                 <div className={'ParentLevel'}>
                     <Level Width={this.state.AllUsers} Current={this.props.Current}/>
                 </div>
+
                 <ExploreTeam/>
 
 

@@ -1,9 +1,9 @@
 import React , {Component} from "react";
-import GetData from "./GetData";
+import GetData2 from "./2-GetData";
 import '../Style/Style.css'
 
 
-export default class Master extends Component{
+export default class Master1 extends Component{
 
     constructor(props) {
         super(props);
@@ -48,11 +48,11 @@ export default class Master extends Component{
         return (
             <section className='Project'>
 
-                <GetData Current={this.state.Current}
-                         NextCurrent ={this.NextCurrent}
-                         PrevCurrent={this.PrevCurrent}
-                         RestartNextCurrent={this.RestartNextCurrent}
-                         RestartPrevCurrent={this.RestartPrevCurrent}
+                <GetData2 Current={this.state.Current}
+                          NextCurrent ={this.NextCurrent}
+                          PrevCurrent={this.PrevCurrent}
+                          RestartNextCurrent={this.RestartNextCurrent}
+                          RestartPrevCurrent={this.RestartPrevCurrent}
                 />
 
             </section>
