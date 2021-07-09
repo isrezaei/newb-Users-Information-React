@@ -9,7 +9,6 @@ export default function ShowData(props){
     const {id,name,username,website,phone,address:{city}} = props.Data
 
     return (
-
         <>
             <div className={'Information'}>
                 <UserImage Current={props.Current}/>

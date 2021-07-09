@@ -7,8 +7,6 @@ export default function ExploreTeam (){
     const Random2 = Math.floor(Math.random()*Arry.length).toFixed()
     const Random3 = Math.floor(Math.random()*Arry.length).toFixed()
 
- console.log(Random1)
-
     return (
         <div className={'ExploreTeam'} >
             <div className={'ExploreImage'}>

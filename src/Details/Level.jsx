@@ -14,10 +14,10 @@ export default function Level (props){
         })
     })
 
-    console.log(Curren)
-    console.log(props.Width[Curren][0])
-    console.log(props.Width[Curren][1])
-
+    // console.log(Curren)
+    // console.log(props.Width[Curren][0])
+    // console.log(props.Width[Curren][1])
+    //
 
     return(
         <>

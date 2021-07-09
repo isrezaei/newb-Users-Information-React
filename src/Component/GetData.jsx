@@ -11,16 +11,7 @@ class GetData extends Component{
 
         this.state = {
             UserInfo : null ,
-            PrevPros : null
-        }
-    }
-
-
-    static getDriveStateFromProps(nextProps , prevState){
-        if(nextProps.Current !== prevState.PrevPros){
-            return{
-                PrevPros : nextProps.Current
-            }
+            PrevProps : null
         }
     }
 
@@ -43,7 +34,21 @@ class GetData extends Component{
     }
 
 
+    static getDerivedStateFromProps(nextProps , prevState){
+        if(nextProps.Current !== prevState.PrevProps){
+            return{
+                UserInfo : null ,
+                PrevProps : nextProps.Current
+            }
+        }
+        return null
+    }
+
+
     render() {
+
+        console.log(this.state.UserInfo)
+
         return (
             <>
                 {this.state.UserInfo
