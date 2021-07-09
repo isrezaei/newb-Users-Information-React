@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 480px){
+@media screen and (min-width: 0px) and (max-width: 320px){
 
     .Project{
         width: 18rem !important;
@@ -126,6 +126,137 @@
     .ExploreImage :nth-child(3){
         width : 2.5rem !important; ;
         height : 2.5rem !important; ;
+        transform: translateX(-80%);
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .Project{
+        width: 22rem !important;
+        height: 35rem !important;
+    }
+
+    .Buttons{
+        width: 100%;
+        height: auto;
+    }
+
+    .Buttons button{
+        width: 30px !important;
+        height: 30px !important;
+        background-color: #e0e0e0;
+        margin: 0 .25rem;
+    }
+
+    .Content{
+        width: 90%;
+        height: auto;
+    }
+
+    .Information{
+        width: 100%;
+        height: 30rem;
+        overflow: hidden;
+    }
+
+    .PersonImage{
+        width: 100%;
+    }
+
+    .PersonImage img{
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .Name{
+        width: 100%;
+        height: 3rem;
+        margin: .5rem 0;
+    }
+
+    .SocialButton{
+        width: 100%;
+        height: auto;
+        margin: 1.5rem 0;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid  #e0e0e0;
+    }
+
+    .SocialButtonLeft{
+        width: 50%;
+    }
+
+    .SocialButtonLeft button{
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 .25rem;
+
+    }
+
+    .SocialButtonRight{
+        width: 50%;
+    }
+
+    .SocialButtonRight button{
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 .25rem;
+    }
+
+    .Data{
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+    }
+    .Data :nth-child(1){
+        font-size: 15px!important;
+    }
+
+    .Data :nth-child(2){
+        font-size: 20px!important;
+    }
+
+    .ParentLevel{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .Level{
+        width: 100%;
+    }
+
+    .Level :nth-child(1){
+        width: 0;
+        height: .5rem !important;
+        margin: auto;
+    }
+
+    .Level :nth-child(2){
+        width: 100%;
+        height: .5rem !important;
+    }
+
+    .ExploreTeam{
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .ExploreImage :nth-child(1){
+        width : 3rem !important; ;
+        height : 3rem !important; ;
+    }
+
+    .ExploreImage :nth-child(2){
+        width : 3rem !important; ;
+        height : 3rem !important; ;
+        transform: translateX(-40%);
+    }
+
+    .ExploreImage :nth-child(3){
+        width : 3rem !important; ;
+        height : 3rem !important; ;
         transform: translateX(-80%);
     }
 }

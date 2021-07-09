@@ -55,8 +55,8 @@ class GetData2 extends Component{
                     ?
                     <div className={'Content'}>
                         <div className={'Buttons'}>
-                            <button onClick={this.props.Current > 1 ? this.props.PrevCurrent : this.props.RestartPrevCurrent }><FcPrevious size={'35px'}/></button>
-                            <button onClick={this.props.Current < 10 ? this.props.NextCurrent : this.props.RestartNextCurrent }><FcNext size={'35px'}/></button>
+                            <button onClick={this.props.Current > 1 ? this.props.PrevCurrent : this.props.RestartPrevCurrent }><FcPrevious size={'40px'}/></button>
+                            <button onClick={this.props.Current < 10 ? this.props.NextCurrent : this.props.RestartNextCurrent }><FcNext size={'40px'}/></button>
                         </div>
                         <ShowData3 Data={this.state.UserInfo} Current={this.props.Current}/>
                     </div>
